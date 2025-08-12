@@ -1,3 +1,8 @@
+"""
+StarGAN Weather Translation Implementation
+Author: Bhargav Shekokar
+"""
+
 # StarGAN Weather Translation
 
 A PyTorch implementation of StarGAN for translating images between different weather conditions using a single unified model.
@@ -313,3 +318,7 @@ Project Link: [https://github.com/BhargavShekokar3425/StarGAN-Weather-Translatio
 ---
 
 ⭐ **Star this repository if you find it helpful!** ⭐
+
+## 📚 References
+
+This implementation is based on the StarGAN architecture for multi-domain image translation, adapted specifically for weather condition transformation.

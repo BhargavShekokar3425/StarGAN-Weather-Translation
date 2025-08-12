@@ -152,26 +152,15 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
-# PyTorch model files
-*.pth
-*.pt
-*.ckpt
+# Exclude only very large model checkpoints (optional)
+# *.pth
+# *.pt
+# *.ckpt
 
-# Dataset directories
-data/
-dataset/
-datasets/
-images/
-*.jpg
-*.jpeg
-*.png
-*.gif
-*.bmp
-*.tiff
-*.tif
-
-# Jupyter notebooks (optional - uncomment if you don't want to track them)
-# *.ipynb
+# Dataset directories (keep your weather dataset out if it's too large)
+# Uncomment these lines if your dataset is very large
+# data/celeba/
+# data/weather/dataset/
 
 # Mac system files
 .DS_Store
@@ -201,7 +190,7 @@ temp/
 *.backup
 *.bak
 
-# Large files (Git LFS should be used instead)
+# Large compressed files
 *.zip
 *.tar.gz
 *.rar
